@@ -12,3 +12,8 @@
 --sifra int,
 --naziv varchar
 --);
+
+--create table strucnespreme(
+--sifra int,
+--naziv varchar
+--);
