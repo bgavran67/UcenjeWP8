@@ -7,3 +7,8 @@
 --ime varchar,
 --prezime varchar
 --);
+
+--create table odgojneskupine (
+--sifra int,
+--naziv varchar
+--);
