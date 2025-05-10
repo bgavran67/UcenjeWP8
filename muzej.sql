@@ -15,3 +15,9 @@
 --naziv varchar,
 --lokacija decimal
 --);
+
+--create table kustosi(
+--sifra int,
+--ime varchar,
+--prezime varchar
+--);
