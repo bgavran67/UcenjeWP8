@@ -4,22 +4,22 @@
 
 --create table djeca(
 --sifra int,
---ime varchar,
---prezime varchar
+--ime varchar(50),
+--prezime varchar(50)
 --);
 
 --create table odgojneskupine (
 --sifra int,
---naziv varchar
+--naziv varchar(60)
 --);
 
 --create table strucnespreme(
 --sifra int,
---naziv varchar
+--naziv varchar(100)
 --);
 
 --create table odgajateljice(
 --sifra int,
---ime varchar,
---prezime varchar
+--ime varchar(50),
+--prezime varchar(50)
 --);
