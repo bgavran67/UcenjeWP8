@@ -17,3 +17,9 @@
 --sifra int,
 --naziv varchar
 --);
+
+--create table odgajateljice(
+--sifra int,
+--ime varchar,
+--prezime varchar
+--);
