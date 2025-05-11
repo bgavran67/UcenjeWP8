@@ -37,4 +37,9 @@
 --prezime varchar (60)
 --);
 
+--create table popravcisegrt(
+--sifra int,
+--segrt int
+--);
+
 
