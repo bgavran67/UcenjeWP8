@@ -21,3 +21,10 @@
 --postolari int,
 --korisnici int
 --);
+
+--create table korisnici(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60),
+--brojtelefona varchar (100)
+--);
