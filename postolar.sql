@@ -34,3 +34,10 @@
 --model varchar (100),
 --kolicina int
 --);
+
+--create table popravci(
+--sifra int,
+--pocetakpopravka datetime,
+--zavrsetakpopravka datetime,
+--komadiobuce int
+--);
