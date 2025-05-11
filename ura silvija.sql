@@ -30,3 +30,11 @@
 --pocetak_popravljanja datetime,
 --zavrsetak_popravljanja datetime
 --);
+ 
+--create table segrti(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60)
+--);
+
+
