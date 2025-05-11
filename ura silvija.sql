@@ -14,3 +14,10 @@
 --prezime varchar (60),
 --brojtelefona varchar (100)
 --);
+
+--create table urari(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60),
+--godineiskustva int
+--);
