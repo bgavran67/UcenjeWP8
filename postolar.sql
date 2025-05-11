@@ -28,3 +28,9 @@
 --prezime varchar (60),
 --brojtelefona varchar (100)
 --);
+ 
+--create table komadiobuce(
+--sifra int,
+--model varchar (100),
+--kolicina int
+--);
