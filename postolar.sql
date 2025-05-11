@@ -15,4 +15,9 @@
 --prezime varchar (60)
 --);
 
-
+--create table radionice(
+--sifra int,
+--lokacija varchar (100),
+--postolari int,
+--korisnici int
+--);
