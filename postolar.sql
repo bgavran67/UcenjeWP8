@@ -6,5 +6,13 @@
 --sifra int,
 --ime varchar (50),
 --prezime varchar (60),
---godineiskustva int,
+--godineiskustva int
 --);
+
+--create table segrti(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60)
+--);
+
+
