@@ -41,3 +41,9 @@
 --zavrsetakpopravka datetime,
 --komadiobuce int
 --);
+
+--create table segrtipopravci(
+--sifra int,
+--popravci int,
+--segrti int
+--);
