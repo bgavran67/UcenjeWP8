@@ -21,3 +21,12 @@
 --prezime varchar (60),
 --godineiskustva int
 --);
+
+--create table popravcisatova(
+--sifra int,
+--kolicina int,
+--korisnici int,
+--urar int,
+--pocetak_popravljanja datetime,
+--zavrsetak_popravljanja datetime
+--);
