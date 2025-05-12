@@ -12,3 +12,11 @@
 --sifra int,
 --predmet varchar (100)
 --);
+
+--create table prijave(
+--sifra int,
+--studenti int,
+--rokovi int,
+--nazivpredmeta varchar (100),
+--vrijemedatum datetime
+--);
