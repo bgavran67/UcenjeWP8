@@ -22,3 +22,11 @@
 --ime varchar (50),
 --prezime varchar (50)
 --);
+
+--create table putnici(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (50),
+--brojtelefona varchar(15),
+--adresa varchar(100)
+--);
