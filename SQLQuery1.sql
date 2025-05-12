@@ -30,3 +30,11 @@
 --brojtelefona varchar(15),
 --adresa varchar(100)
 --);
+
+--create table voznje(
+--sifra int,
+--pocetakvoznje datetime,
+--zavrsetakvoznje datetime,
+--vozac int,
+--putnik int
+--);
