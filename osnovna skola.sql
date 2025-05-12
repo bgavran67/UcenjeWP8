@@ -20,3 +20,10 @@
 --prezime varchar (50),
 --osnovnaskola int
 --);
+
+--create table djecjeradionice(
+--sifra int,
+--naziv varchar (50),
+--uciteljice int,
+--osnovneskole int
+--);
