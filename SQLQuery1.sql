@@ -16,3 +16,9 @@
 --tipvozila varchar (50),
 --vozac int,
 --);
+
+--create table vozaci(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (50)
+--);
