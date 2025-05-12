@@ -15,3 +15,10 @@
 --naziv varchar (100)
 --);
 
+--create table pacijenti(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60),
+--brojtelefona varchar (20),
+--email varchar (100)
+--);
