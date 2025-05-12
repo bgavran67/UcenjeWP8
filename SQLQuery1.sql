@@ -9,3 +9,10 @@
 --tema varchar(70),
 --kustos int
 --);
+ 
+--create table vozila(
+--sifra int,
+--model varchar (50),
+--tipvozila varchar (50),
+--vozac int,
+--);
