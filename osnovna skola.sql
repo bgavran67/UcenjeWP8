@@ -27,3 +27,9 @@
 --uciteljice int,
 --osnovneskole int
 --);
+
+--create table radionicedjece(
+--sifra int,
+--djeca int,
+--djecjeradionice int
+--);
