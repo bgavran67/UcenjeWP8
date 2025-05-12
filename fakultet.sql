@@ -20,3 +20,9 @@
 --nazivpredmeta varchar (100),
 --vrijemedatum datetime
 --);
+
+--create table rokovi(
+--sifra int,
+--vrijemedatum datetime,
+--kolegiji int
+--);
