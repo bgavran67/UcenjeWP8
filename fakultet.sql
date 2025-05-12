@@ -8,7 +8,7 @@
 --prezime varchar (50)
 --);
 
-create table kolegiji(
-sifra int,
-predmet varchar (100)
-);
+--create table kolegiji(
+--sifra int,
+--predmet varchar (100)
+--);
