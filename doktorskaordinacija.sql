@@ -28,3 +28,9 @@
 --ime varchar (50),
 --prezime varchar (60)
 --);
+
+--create table medicinskesestrepomoc(
+--sifra int,
+--posjeti int,
+--medicinskesestre int
+--);
