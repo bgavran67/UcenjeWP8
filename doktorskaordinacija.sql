@@ -22,3 +22,9 @@
 --brojtelefona varchar (20),
 --email varchar (100)
 --);
+
+--create table medicinskesestre(
+--sifra int,
+--ime varchar (50),
+--prezime varchar (60)
+--);
