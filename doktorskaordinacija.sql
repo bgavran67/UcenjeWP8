@@ -34,3 +34,10 @@
 --posjeti int,
 --medicinskesestre int
 --);
+
+--create table posjeti(
+--sifra int,
+--pacijenti int,
+--doktori int,
+--datumvrijeme datetime
+--);
