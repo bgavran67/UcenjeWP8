@@ -9,3 +9,9 @@
 --prezime varchar (50),
 --email varchar (100)
 --);
+
+--create table lijecenja(
+--sifra int,
+--naziv varchar (100)
+--);
+
