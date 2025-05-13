@@ -11,6 +11,11 @@ sifra int not null primary key identity(1,1),
 ime varchar(50) not null,
 prezime varchar(50) not null,
 );
+create table strucnespreme(
+sifra int not null primary key identity(1,1),
+naziv varchar(100) not null,
+odgajateljica int references odgajateljice(sifra)
+);
 
 create table odgojneskupine (
 sifra int not null primary key identity(1,1),
@@ -25,9 +30,4 @@ prezime varchar(50) not null,
 odgojneskupine int references odgojneskupine(sifra)
 );
 
-create table strucnespreme(
-sifra int not null primary key identity(1,1),
-naziv varchar(100) not null,
-odgajateljica int references odgajateljice(sifra)
-);
 
