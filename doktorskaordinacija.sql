@@ -1,43 +1,50 @@
-﻿--create database doktorskaordinacija;
+﻿use master;
+go
+drop database doktorskaordinacija;
+go
+create database doktorskaordinacija;
+go
+use doktorskaordinacija;
+go
 
---use doktorskaordinacija;
-
-
---create table doktori(
---sifra int,
---ime varchar (50),
---prezime varchar (50),
+--create table pacijenti(
+--sifra int not null primary key identity(1,1),
+--ime varchar (50) not null,
+--prezime varchar (60) not null,
+--brojtelefona varchar (20) not null,
 --email varchar (100)
 --);
 
---create table lijecenja(
---sifra int,
---naziv varchar (100)
---);
-
---create table pacijenti(
---sifra int,
---ime varchar (50),
---prezime varchar (60),
---brojtelefona varchar (20),
+--create table doktori(
+--sifra int not null primary key identity(1,1),
+--ime varchar (50) not null,
+--prezime varchar (50) not null,
 --email varchar (100)
 --);
 
 --create table medicinskesestre(
---sifra int,
---ime varchar (50),
---prezime varchar (60)
---);
-
---create table medicinskesestrepomoc(
---sifra int,
---posjeti int,
---medicinskesestre int
+--sifra int not null primary key identity(1,1),
+--ime varchar (50) not null,
+--prezime varchar (60) not null
 --);
 
 --create table posjeti(
---sifra int,
---pacijenti int,
---doktori int,
---datumvrijeme datetime
+--sifra int not null primary key identity(1,1),
+--pacijenti int not null references pacijenti(sifra),
+--doktori int not null references doktori(sifra),
+--datumvrijeme datetime not null
 --);
+
+
+--create table lijecenja(
+--sifra int not null primary key identity(1,1),
+--naziv varchar (100) not null,
+--pacijenti int references pacijenti(sifra)
+--);
+
+--create table medicinskesestrepomoc(
+--sifra int not null primary key identity(1,1),
+--posjeti int not null references posjeti(sifra),
+--medicinskesestre int not null references medicinskesestre(sifra)
+--);
+
