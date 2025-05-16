@@ -96,3 +96,5 @@ insert into clanovi (grupa, polaznik) values
 
 insert into clanovi(grupa, polaznik) values
 (3,7),(3,17),(3,27);
+
+select * from polaznici;
