@@ -6,7 +6,7 @@ create database edunovawp8;
 go
 use edunovawp8;
 
---nazivi tablica u množini zbog C# i EF
+----nazivi tablica u množini zbog C# i EF
 
 create table smjerovi(
 sifra int not null primary key identity(1,1),
