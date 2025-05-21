@@ -23,7 +23,7 @@ sifra int primary key identity(1,1),
 vrsta varchar (50) not null,
 naziv varchar (60) not null,
 osobe int references osobe(sifra),
-prostori int references prostori(sifra)
+prostori int not null references prostori(sifra)
 );
 
 insert into osobe (ime, prezime)
@@ -34,15 +34,17 @@ values ('Ivana', 'Radić'),
 ('Nina', 'Marić')
 
 insert into prostori (naziv)
-values ('Pasji kutak sreće'),
+values 
+('Pasji kutak sreće'),
 ('Mačji raj'),
 ('Zeko-zona'),
 ('Papagajski paviljon'),
-('Hrčkova kućica ')
+('Hrčkova kućica')
 
-insert into sticenici (vrsta,naziv)
-values ('Pas', 'Reks'),
-('Mačka', 'Mica'),
-('Zec', 'Skoki'),
-('Papagaj', 'Čiki'),
-('Hrčak', 'Fifi')
+select * from sticenici;
+insert into sticenici (vrsta,naziv,prostori)
+values ('Pas', 'Reks', 1),
+('Mačka', 'Mica', 2),
+('Zec', 'Skoki', 3),
+('Papagaj', 'Čiki',4),
+('Hrčak', 'Fifi', 5)
