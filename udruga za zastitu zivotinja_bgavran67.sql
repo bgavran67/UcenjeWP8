@@ -42,9 +42,9 @@ values
 ('Hrčkova kućica')
 
 select * from sticenici;
-insert into sticenici (vrsta,naziv,prostori)
-values ('Pas', 'Reks', 1),
-('Mačka', 'Mica', 2),
-('Zec', 'Skoki', 3),
-('Papagaj', 'Čiki',4),
-('Hrčak', 'Fifi', 5)
+insert into sticenici (vrsta,naziv)
+values ('Pas', 'Reks')
+('Mačka', 'Mica'),
+('Zec', 'Skoki'),
+('Papagaj', 'Čiki'),
+('Hrčak', 'Fifi')
