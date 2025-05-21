@@ -1,25 +1,34 @@
-﻿--create database udrugazazastituzivotinja;
+﻿use master;
+go
+drop database if exists udrugazazastituzivotinja;
+go
+create database udrugazazastituzivotinja collate Croatian_CI_AS;
+go
+use udrugazazastituzivotinja;
+go
+create table osobe(
+sifra int primary key identity(1,1),
+ime varchar (50) not null,
+prezime varchar (50) not null
+);
 
---drop database udrugazazastituzivotinja;
+create table prostori(
+sifra int primary key identity(1,1),
+lokacija decimal(11,8) null,
+naziv varchar(50) not null
+);
 
---use udrugazazastituzivotinja;
+create table sticenici(
+sifra int primary key identity(1,1),
+vrsta varchar (50) not null,
+naziv varchar (60) not null,
+osobe int references osobe(sifra),
+prostori int references prostori(sifra)
+);
 
---drop table osoba;
-
---create table osobe(
---sifra int,
---ime varchar (50),
---prezime varchar (50)
---);
-
---create table prostori(
---sifra int,
---lokacija decimal(11,8),
---naziv varchar(50)
---);
-
---create table sticenici(
---sifra int,
---vrsta varchar (50),
---naziv varchar (60)
---);
+insert into osobe (ime, prezime)
+values ('Ivana', 'Radić'),
+('Luka', 'Vuković'),
+('Sara', 'Tomić'),
+('Petar', 'Blažević'),
+('Nina', 'Marić')
