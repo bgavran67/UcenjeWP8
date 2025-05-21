@@ -39,3 +39,10 @@ values ('Pasji kutak sreće'),
 ('Zeko-zona'),
 ('Papagajski paviljon'),
 ('Hrčkova kućica ')
+
+insert into sticenici (vrsta,naziv)
+values ('Pas', 'Reks'),
+('Mačka', 'Mica'),
+('Zec', 'Skoki'),
+('Papagaj', 'Čiki'),
+('Hrčak', 'Fifi')
