@@ -32,3 +32,10 @@ values ('Ivana', 'Radić'),
 ('Sara', 'Tomić'),
 ('Petar', 'Blažević'),
 ('Nina', 'Marić')
+
+insert into prostori (naziv)
+values ('Pasji kutak sreće'),
+('Mačji raj'),
+('Zeko-zona'),
+('Papagajski paviljon'),
+('Hrčkova kućica ')
