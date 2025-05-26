@@ -38,6 +38,8 @@ gost int not null references gosti(sifra)
 create table rezervacije(
 sifra int not null primary key identity (1,1),
 ukupna_cijena decimal (38),
+vrijeme_datum_prijave datetime,
+vrijeme_datum_odjave datetime,
 gost int not null references gosti(sifra),
 soba int not null references sobe(sifra)
 );
