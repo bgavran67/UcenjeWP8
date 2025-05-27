@@ -68,7 +68,6 @@ values ('2025-06-01','2025-06-12','Trg Lavoslava Ružičke 2, 31000 Osijek','1',
 insert into rezervacije (gost,soba) 
 values (1,2), (2,3), (3,1), (4,2), (5,5)
 
-
 select a.sifra, b.sifra, a.datum_polaska, a.datum_odlaska, a.lokacija_polazista, b.ime, b.prezime,d.tip_sobe
 from prijevoz_gostiju a
 inner join gosti b on a.gost=b.sifra
@@ -79,3 +78,5 @@ select b.ime, b.prezime, b.email, d.tip_sobe
 from rezervacije c
 inner join gosti b on c.gost=b.sifra
 inner join sobe d on d.sifra=c.soba
+
+--ispisi imena i prezimena koji nisu koristili uslugu prijevoza
