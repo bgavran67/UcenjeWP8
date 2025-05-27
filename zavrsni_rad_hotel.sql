@@ -80,3 +80,11 @@ inner join gosti b on c.gost=b.sifra
 inner join sobe d on d.sifra=c.soba
 
 --ispisi imena i prezimena koji nisu koristili uslugu prijevoza
+select a.ime, a.prezime
+from gosti a
+left join prijevoz_gostiju b on a.sifra=b.gost
+where gost is null;
+
+--unesi jednog koji nema prijevoz do hotela
+insert into gosti(ime,prezime,email)
+values ('Barbara','Gavran','bgavran67@gmail.com');
