@@ -20,7 +20,7 @@ sifra int not null primary key identity (1,1),
 ime varchar (50) not null,
 prezime varchar (60) not null,
 email varchar (100) not null,
-telefon int, 
+telefon varchar (25), 
 adresa varchar (100)
 );
 
