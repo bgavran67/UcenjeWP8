@@ -2,7 +2,17 @@
 
 using Ucenje;
 
-E01UlazIzlaz.Izvedi();
+
+E05UvjetnoGrananjeSwitch.Izvedi();
+
+//E04UvjetnoGrananjeIf.Izvedi();
+
+//E03Operatori.Izvedi();
+
+//E02Z1.Izvedi();
+//E01UlazIzlaz.Izvedi();
+
+//E02Varijable.Izvedi();
 
 
 
