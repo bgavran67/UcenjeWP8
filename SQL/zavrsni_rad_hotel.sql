@@ -2,7 +2,7 @@
 go
 drop database if exists zavrsniradhotel;
 go
-create database zavrsniradhotel collate Croatian_CI_AS;;
+create database zavrsniradhotel collate Croatian_CI_AS;
 go
 use zavrsniradhotel;
 
