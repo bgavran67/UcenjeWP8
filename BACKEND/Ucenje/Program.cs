@@ -2,8 +2,15 @@
 
 using Ucenje;
 
+E10ForEachPetlja.Izvedi();
+//E09DoWhile.Izvedi();
+//E08WhilePetlja.Izvedi();
+//E07ForPetlja.Izvedi();
 
-E05UvjetnoGrananjeSwitch.Izvedi();
+//E06Z1.Izvedi();
+//E06Nizovi.Izvedi();
+
+//E05UvjetnoGrananjeSwitch.Izvedi();
 
 //E04UvjetnoGrananjeIf.Izvedi();
 
