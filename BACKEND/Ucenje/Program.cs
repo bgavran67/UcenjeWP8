@@ -1,8 +1,10 @@
 ﻿
 
 using Ucenje;
-
-E10ForEachPetlja.Izvedi();
+E12Metode.Izvedi();
+//E11Z01.Izvedi();
+//E11TryCatch.Izvedi();
+//E10ForEachPetlja.Izvedi();
 //E09DoWhile.Izvedi();
 //E08WhilePetlja.Izvedi();
 //E07ForPetlja.Izvedi();
