@@ -67,11 +67,14 @@ namespace Ucenje.E14KlasaObjekt
                 DatumRodenja = new DateTime(1980, 1, 2)
             };
 
-            osobe[1] = new() { Ime = "Ante" };
+            osobe[1] = new() { Ime = "Ante" }; 
             osobe[2] = osoba;
             foreach(Osoba o in osobe){
                 Console.WriteLine(o.Ime);
-            }
+            } //prikazuje samo Mariju i Ante
+
+
+
 
         }
 
