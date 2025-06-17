@@ -33,7 +33,29 @@ namespace Ucenje
             }
         }
 
+        public static int ucitajCijeliBroj(string poruka)
+        {
+            while (true)
+            {
+                Console.Write(poruka + ": ");
+                try
+                {
+                    return int.Parse(Console.ReadLine());
+                }
+                catch
+                {
+                    Console.WriteLine("Pokusaj ponovno.");
+                }
+            }
 
+
+
+
+
+
+
+
+        }
 
     }
 }

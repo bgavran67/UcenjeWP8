@@ -2,7 +2,10 @@
 
 using Ucenje;
 
-E11Z02.Izvedi();
+//kljucna rijec new poziva konstruktor klase
+new Ucenje.E14KlasaObjekt.Program();
+
+//E11Z02.Izvedi();
 //E13Rekurzija.Izvedi();
 //E12Metode.Izvedi();
 //E11Z01.Izvedi();
