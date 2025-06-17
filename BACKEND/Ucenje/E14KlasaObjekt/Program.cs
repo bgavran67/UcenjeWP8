@@ -74,9 +74,53 @@ namespace Ucenje.E14KlasaObjekt
             } //prikazuje samo Mariju i Ante
 
 
+            //ovdje je Mjesto na osobi null (?)
+            Console.WriteLine(osoba.Mjesto?.Naziv ?? "Nije postavljeno");
 
+            //ovdje na osoba dodjeljujem Mjesto na novu instancu klase mjesto s vrijednoscu naziva Osijek
+            osoba.Mjesto = new() { Naziv = "Osijek", Zupanija = new Zupanija() { Naziv = "OBZ", Zupan = new() { Ime = "Natasa" } } };
+
+            //ovdje Mjesto nije null i  naziv je postavljen
+            Console.WriteLine(osoba.Mjesto?.Naziv ?? "Nije postavljeno");
+
+            osoba.Ime = "Pero";
+
+            //osoba.Mjesto.Zupanija = new Zupanija() { Naziv ="OBZ", Zupan = new() { Ime= "Natasa"} };
+
+
+            //Koji je smisao OOP-a
+            //Console.WriteLine(osoba.Mjesto?.Zupanija.Zupan.Ime);
+
+
+            //ispisati Perso s objekta osoba
+            Console.WriteLine(osoba.Ime);
+
+            //ispisati obz
+            Console.WriteLine(osoba.Mjesto?.Zupanija.Naziv);
+
+            //ispisati Osijek
+            Console.WriteLine(osoba.Mjesto?.Naziv);
+        }
+
+        //Zadatak: kreirati klasu automobil s 5 svojstava
+        public static void AutomobilZadatak()
+        {
+            Automobil automobil = new Automobil();
+            automobil.Sifra = 1;
+            automobil.Marka = "Mercedes";
+            automobil.Automatik = false;
+            automobil.DatumProizvodnje = new DateTime(1991, 11, 1);
+            automobil.Cijena = 14525.20M;
+
+            Console.WriteLine(automobil.DatumProizvodnje);
 
         }
+
+
+
+
+    }
+
 
 
     }

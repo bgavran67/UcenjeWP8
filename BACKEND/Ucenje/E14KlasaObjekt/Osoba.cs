@@ -7,7 +7,7 @@ using System.Threading.Tasks;
 namespace Ucenje.E14KlasaObjekt
 {
     //klasa je opisnik objekta -> nauciti napamet
-    class Osoba
+    public class Osoba
     {
         // klasa se sastoji od svojstava
         // princip ucahurivanja (OOP Princip)
@@ -19,6 +19,15 @@ namespace Ucenje.E14KlasaObjekt
         public string Prezime { get; set; } = ""; // = "" ce postaviti prazno, nece biti null
 
         public DateTime? DatumRodenja { get; set; }
+
+
+        //prvi tekst Mjesto je KLASA a drugi tekst Mjesto je SVOJSTVO
+        //ovo je veza 1:N u bazi
+        public Mjesto? Mjesto { get; set; }
+
+        //ovo je veza N:N u bazi
+        //koristimo nizove [] za vise
+        public Mjesto[]? Mjesta { get; set; }
 
         // klasa se sastoji od metodaa
         //ova metoda nije static
