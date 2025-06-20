@@ -9,11 +9,13 @@ namespace Ucenje.E17Vjezbanje
     public class Program
     {
         public Zadatak1 Zad1 { get; set; }
+        public Zadatak2 Zad2 { get; set; }
 
         public Program()
         {
             //zadatak konstruktora je konstruirati potrebne zavisnosti
             Zad1 = new Zadatak1();
+            Zad2 = new Zadatak2();
             Izbornik();
 
         }
@@ -24,7 +26,7 @@ namespace Ucenje.E17Vjezbanje
             Console.WriteLine("********** IZBORNIK ************");
             Console.WriteLine("0. Izlaz");
             Console.WriteLine("1. Zbrajanje dvaju brojeva");
-
+            Console.WriteLine("2. Izracun povrsine");
             Console.WriteLine("******************************");
             OcitajOdabir();
         }
@@ -41,6 +43,9 @@ namespace Ucenje.E17Vjezbanje
                 case 1:
                     Zad1.Izvedi();
                     //Console.WriteLine("1. zadatak");
+                    break;
+                case 2:
+                    Zad2.Izvedi();
                     break;
                 default:
                     Console.WriteLine("Ne postoji taj program");
