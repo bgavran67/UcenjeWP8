@@ -13,8 +13,10 @@ namespace Ucenje.E15Nasljedivanje
         {
             Console.WriteLine("Nasljedivanje");
 
-            var oso = new Osoba() { Ime = "Marija", Prezime = "Jot" };
+            var oso = new PontecijalniPolaznik() { Ime = "Marija", Prezime = "Jot" };
+
             Predavac pre = new() { Ime = "Karlo", Prezime = "Lot", IBAN = "HR82974012990" };
+
             Polaznik pol = new Polaznik() { Ime = "Karla", Prezime = "Sep", Telefon = "099 / 325-666" };
 
             Polaznik poll = new Polaznik() { Ime = "Karla", Prezime = "Sep", Telefon = "099 / 325-666" };
@@ -32,6 +34,27 @@ namespace Ucenje.E15Nasljedivanje
 
             Console.WriteLine(pre);
 
+
+            string grad = "Osijek";
+
+            Console.WriteLine(grad.GetHashCode()); //641199584
+
+            grad += " je najbolji";
+
+            Console.WriteLine(grad.GetHashCode()); //-1804026246
+
+            //ista varijabla nakon promjene nema isti hashcode - immutable
+            //string je immutable klasa (ne moze se mijenjati)
+            // svaka promjena string varijable radi novu istancu string klase - NIJE DOBRO!
+            //Rjesenje: koristiti StringBuilder klasu
+
+            var sb = new StringBuilder();
+
+            sb.Append("Osijek");
+            Console.WriteLine(sb.GetHashCode());
+
+            sb.Append(" je najbolji.");
+            Console.WriteLine(sb.GetHashCode()); // --> ima isti broj 2606490
 
 
 

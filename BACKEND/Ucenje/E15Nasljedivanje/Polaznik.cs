@@ -28,8 +28,10 @@ namespace Ucenje.E15Nasljedivanje
                 if (p.Ime.Equals(this.Ime) &&
                     p.Prezime.Equals(Prezime) &&
                     p.Telefon.Equals(Telefon))
-
-                    return false;
+            {
+                return true;
+            }
+            return false;
            
         }
 

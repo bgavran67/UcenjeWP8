@@ -8,7 +8,9 @@ using System.Threading.Tasks;
 namespace Ucenje.E15Nasljedivanje
 {
     //klasa Object
-   public class Osoba : Object
+    //Apstraktna klasa je ona klasa koja nema implemenataciju (instancu)
+    //sluzi da bi se nasljedila i prosilira
+   public abstract class Osoba : Object
     {
         public int Sifra { get; set; }
         public string Ime { get; set; }= "";
@@ -17,7 +19,8 @@ namespace Ucenje.E15Nasljedivanje
 
         public override string ToString()
         {
-            return Ime + " " + Prezime;
+            //return Ime + " " + Prezime;
+            return new StringBuilder().Append(' ').Append(Ime).ToString();
         }
     }
 }
