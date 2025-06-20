@@ -17,7 +17,7 @@ namespace Ucenje.E14KlasaObjekt
         {
             Console.WriteLine("Klasa/objekt");
 
-            //objekt je pojavnost (instanca ili pojavnost) klase - nauciti napamet
+            //objekt je pojavnost (instanca) klase - nauciti napamet
 
             // Oosoba (primjetiti veliko slovo O) je KLASA
             // osoba (malo slovo O) je OBJEKT -> naziva se instanca/varijabla
@@ -123,5 +123,5 @@ namespace Ucenje.E14KlasaObjekt
 
 
 
-    }
+    
 }

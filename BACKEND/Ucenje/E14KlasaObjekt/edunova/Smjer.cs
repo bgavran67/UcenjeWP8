@@ -14,8 +14,5 @@ namespace Ucenje.E14KlasaObjekt.edunova
 
         public bool Aktivan { get; set; }
 
-
-
-
     }
 }

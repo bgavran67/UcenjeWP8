@@ -11,9 +11,9 @@ namespace Ucenje.ZavrsniRad
     {
         public int Sifra { get; set; }
 
-        public decimal UkupnaCijena { get; set; }
+        public decimal? UkupnaCijena { get; set; }
 
-        public DateTime VrijemeIDatumPrijave { get; set; }
+        public DateTime? VrijemeIDatumPrijave { get; set; }
 
         public Gost Gost { get; set; } = new Gost();
 

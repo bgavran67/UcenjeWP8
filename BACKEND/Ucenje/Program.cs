@@ -2,11 +2,15 @@
 
 using Ucenje;
 
+
+new Ucenje.E15Nasljedivanje.Program();
+
+
 //kljucna rijec new poziva konstruktor klase
 //new Ucenje.E14KlasaObjekt.Program();
 
 
-Ucenje.E14KlasaObjekt.Program.AutomobilZadatak();
+//Ucenje.E14KlasaObjekt.Program.AutomobilZadatak();
 
 //E11Z02.Izvedi();
 //E13Rekurzija.Izvedi();

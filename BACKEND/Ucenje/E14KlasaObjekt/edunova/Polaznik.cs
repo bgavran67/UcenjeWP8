@@ -11,9 +11,5 @@ namespace Ucenje.E14KlasaObjekt.edunova
 
         public string? Email { get; set; }
 
-
-
-
-
     }
 }
