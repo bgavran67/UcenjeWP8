@@ -2,7 +2,8 @@
 
 using Ucenje;
 
-new Ucenje.E18GSALE.Program();
+new Ucenje.E19KonzolnaAplikacija.Izbornik();
+//new Ucenje.E18GSALE.Program();
 //new Ucenje.E17Vjezbanje.Program();
 
 //new Ucenje.E16Polimorfizam.Program();
